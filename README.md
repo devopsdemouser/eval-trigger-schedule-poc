@@ -97,3 +97,7 @@ All settings can be overridden via environment variables:
 | `lambda_function.py` | Lambda handler — SigV4-signed CreateBacklogTask call |
 | `setup.sh` | Deploys Lambda + IAM roles + EventBridge schedule |
 | `teardown.sh` | Removes all created resources |
+
+## References
+
+- [CreateBacklogTask — AWS CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/devops-agent/create-backlog-task.html) — API used by the Lambda to create EVALUATION tasks
